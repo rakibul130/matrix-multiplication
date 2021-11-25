@@ -2,9 +2,9 @@
 int main(){
         int i,j,k,arow,acol,brow,bcol,a[10][10],b[10][10],c[10][10],sum=0;
          printf("enter the no. rows and columns of matrix a");
-         scanf("%d %d",&arow,&acol);
+         scanf("%d %d",&arow,&acol");
          printf("enter the no.of rows and columns of matrix b");
-         scanf("%d %d",&brow,&bcol);
+         scanf("%d %d",&brow,&bcol");
 
          if(acol!=brow)
          printf("\n sorry.this multiplication is not possible!\n the no. of columns of matrix a and the no. of rows of matrix b should be same");
@@ -35,7 +35,7 @@ int main(){
 
                         }
                       c[i][j]=sum;
-                      printf("&d ",c[i][j]);
+                      printf("%d ",c[i][j]);
                       sum=0;
                       }
                     printf("\n");
